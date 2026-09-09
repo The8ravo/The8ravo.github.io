@@ -1,0 +1,23 @@
+Guangyi Zou 主页修改版
+
+使用方法
+1. 解压后，将文件夹里的全部内容上传到 the8ravo.github.io 仓库根目录，覆盖对应文件。
+2. 保留 .github 文件夹和 .nojekyll 文件。原有 GitHub Pages 发布方式可继续使用。
+3. 无须安装依赖；也可以先双击 index.html 在本地浏览。
+
+主要改动
+- 首页直接展示全部六篇论文，按年份排列。
+- 研究方向提前，邮箱直接显示；次要个人资料链接移到页尾。
+- 缩小照片，统一正文、标题、作者和论文链接的层级。
+- 七份笔记按主题分组。
+- 保留原有 publications.html 地址、CV、照片和全部论文/笔记链接。
+- 小屏幕重新排列照片和年份，保留键盘导航和打印样式。
+
+后续更新
+个人简介：index.html。
+论文：同时更新 index.html 与 publications.html 中的对应条目。
+笔记：notes.html。
+简历：替换 assets/files/cv.pdf。
+排版：assets/css/style.css。
+
+当前公开的 GitHub Pages 网站未被直接修改；此包是可供替换的完整静态版本。
