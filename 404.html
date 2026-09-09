@@ -7,22 +7,22 @@
   <title>Page not found | Guangyi Zou</title>
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/css/style.css">
-  <style>
-    .not-found { min-height: 100vh; display: grid; place-items: center; padding: 2rem; text-align: center; }
-    .not-found-inner { max-width: 680px; }
-    .not-found-code { margin: 0 0 1rem; color: var(--warm); font-family: var(--mono); font-size: 0.85rem; letter-spacing: .12em; }
-    .not-found h1 { margin-bottom: 1rem; font-size: clamp(3rem, 10vw, 7rem); }
-    .not-found p { margin-bottom: 2rem; }
-  </style>
 </head>
 <body>
-  <main class="not-found">
-    <div class="not-found-inner">
-      <p class="not-found-code">ERROR 404</p>
-      <h1>Page not found.</h1>
-      <p>The page may have moved, or the address may be incorrect.</p>
-      <a class="button button-primary" href="./">Return home</a>
-    </div>
-  </main>
+  <div class="page">
+    <header class="site-header">
+      <p class="site-title"><a href="index.html">Guangyi Zou <span lang="zh-Hans">邹广翼</span></a></p>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="notes.html">Notes</a>
+      </nav>
+    </header>
+    <main class="not-found">
+      <p class="error-code">404</p>
+      <h1>Page not found</h1>
+      <p>The requested page does not exist. <a href="index.html">Return to the homepage</a>.</p>
+    </main>
+  </div>
 </body>
 </html>
