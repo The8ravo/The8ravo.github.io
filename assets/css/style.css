@@ -42,6 +42,9 @@ main:focus { outline: none; }
 .year-group > :is(h2,h3) { margin: .16rem 0 0; color: var(--secondary); font-family: var(--sans); font-size: .9375rem; font-weight: 500; font-variant-numeric: tabular-nums; }
 .paper-list { list-style: none; padding: 0; margin: 0; min-width: 0; }
 .paper-list li + li { margin-top: 1.35rem; }
+.publication-list > li { display: grid; grid-template-columns: 3.6rem minmax(0,1fr); gap: 1.25rem; }
+.paper-year { margin-top: .16rem; color: var(--secondary); font-family: var(--sans); font-size: .9375rem; font-weight: 500; font-variant-numeric: tabular-nums; }
+.paper-details { min-width: 0; }
 .paper-title { display: inline; font-weight: 600; line-height: 1.5; text-decoration: none; }
 .paper-title:hover { text-decoration: underline; }
 .paper-meta { display: flex; flex-wrap: wrap; align-items: baseline; gap: .1rem 1.05rem; margin-top: .25rem; color: var(--secondary); font-family: var(--sans); font-size: .9375rem; line-height: 1.6; }
@@ -88,6 +91,7 @@ main:focus { outline: none; }
   .year-group > :is(h2,h3) { margin: 0 0 .7rem; }
   .year-group + .year-group { margin-top: 1.75rem; }
   .paper-list li + li { margin-top: 1.35rem; }
+  .publication-list > li { grid-template-columns: 2.6rem minmax(0,1fr); gap: .75rem; }
 }
 @media print {
   .page { width: 100%; }
